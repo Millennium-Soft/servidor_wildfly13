@@ -1,0 +1,880 @@
+2023-02-23 11:48:33,622 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2023-02-23 11:48:34,857 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2023-02-23 11:48:34,864 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2023-02-23 11:48:34,951 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2023-02-23 11:48:34,951 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre
+	java.io.tmpdir = C:\Users\jdcor\AppData\Local\Temp\
+	java.library.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\jdcor\AppData\Local\Microsoft\WindowsApps;;C:\Users\jdcor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jdcor\AppData\Roaming\npm;C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.5+8
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.5+8
+	java.version = 17.0.5
+	java.version.date = 2022-10-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.5+8
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final
+	jboss.host.name = johnwarrior
+	jboss.modules.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = johnwarrior
+	jboss.qualified.host.name = johnwarrior
+	jboss.server.base.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log
+	jboss.server.name = johnwarrior
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 13
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin
+	user.home = C:\Users\jdcor
+	user.language = es
+	user.name = jdcor
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2023-02-23 11:48:34,953 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 13 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-02-23 11:48:37,228 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-23 11:48:37,241 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 17) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-23 11:48:37,241 INFO  [org.wildfly.security] (ServerService Thread Pool -- 27) ELY00001: WildFly Elytron version 1.3.3.Final
+2023-02-23 11:48:37,663 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 11:48:37,682 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-23 11:48:37,694 INFO  [org.xnio] (MSC service thread 1-5) XNIO version 3.6.3.Final
+2023-02-23 11:48:37,700 INFO  [org.xnio.nio] (MSC service thread 1-5) XNIO NIO Implementation Version 3.6.3.Final
+2023-02-23 11:48:37,727 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-23 11:48:37,730 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-23 11:48:37,735 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-02-23 11:48:37,749 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2023-02-23 11:48:37,750 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2023-02-23 11:48:37,750 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2023-02-23 11:48:37,751 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0119: The system property 'ee8.preview.mode' is NOT set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 7 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2023-02-23 11:48:37,755 INFO  [org.jboss.as.security] (MSC service thread 1-1) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2023-02-23 11:48:37,781 INFO  [org.jboss.as.connector] (MSC service thread 1-3) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2023-02-23 11:48:37,786 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-23 11:48:37,800 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-23 11:48:37,803 INFO  [org.jboss.as.naming] (MSC service thread 1-3) WFLYNAM0003: Starting Naming Service
+2023-02-23 11:48:37,806 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-8) WFLYUT0003: Undertow 2.0.9.Final starting
+2023-02-23 11:48:37,809 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-3) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-23 11:48:37,822 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2023-02-23 11:48:37,823 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0018: Started Driver service with driver-name = postgres
+2023-02-23 11:48:37,854 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 32 core threads with 256 task threads based on your 16 available processors
+2023-02-23 11:48:37,908 INFO  [org.jboss.remoting] (MSC service thread 1-8) JBoss Remoting version 5.0.7.Final
+2023-02-23 11:49:38,220 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2023-02-23 11:49:38,504 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2023-02-23 11:49:38,510 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2023-02-23 11:49:38,598 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2023-02-23 11:49:38,600 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	file.encoding = UTF-8
+	file.separator = \
+	java.awt.headless = true
+	java.class.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\jboss-modules.jar
+	java.class.version = 61.0
+	java.home = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre
+	java.io.tmpdir = C:\Users\jdcor\AppData\Local\Temp\
+	java.library.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;C:\Program Files\Git\cmd;C:\Program Files\nodejs\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Users\jdcor\AppData\Local\Microsoft\WindowsApps;;C:\Users\jdcor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jdcor\AppData\Roaming\npm;C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = OpenJDK Runtime Environment
+	java.runtime.version = 17.0.5+8
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 17
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Eclipse Adoptium
+	java.vendor.url = https://adoptium.net/
+	java.vendor.url.bug = https://github.com/adoptium/adoptium-support/issues
+	java.vendor.version = Temurin-17.0.5+8
+	java.version = 17.0.5
+	java.version.date = 2022-10-18
+	java.vm.compressedOopsMode = 32-bit
+	java.vm.info = mixed mode
+	java.vm.name = OpenJDK 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 17
+	java.vm.vendor = Eclipse Adoptium
+	java.vm.version = 17.0.5+8
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final
+	jboss.host.name = johnwarrior
+	jboss.modules.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = johnwarrior
+	jboss.qualified.host.name = johnwarrior
+	jboss.server.base.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log
+	jboss.server.name = johnwarrior
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\tmp
+	jdk.debug = release
+	line.separator = 
+
+	logging.configuration = file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	native.encoding = Cp1252
+	org.jboss.boot.log.file = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 11
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 13
+	sun.arch.data.model = 64
+	sun.boot.library.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse\plugins\org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin
+	user.home = C:\Users\jdcor
+	user.language = es
+	user.name = jdcor
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2023-02-23 11:49:38,602 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 13 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final -Dorg.jboss.logmanager.nocolor=true --add-exports=java.desktop/sun.awt=ALL-UNNAMED --add-exports=java.naming/com.sun.jndi.ldap=ALL-UNNAMED --add-opens=java.base/java.lang=ALL-UNNAMED --add-opens=java.base/java.lang.invoke=ALL-UNNAMED --add-opens=java.base/java.lang.reflect=ALL-UNNAMED --add-opens=java.base/java.io=ALL-UNNAMED --add-opens=java.base/java.security=ALL-UNNAMED --add-opens=java.base/java.util=ALL-UNNAMED --add-opens=java.base/java.util.concurrent=ALL-UNNAMED --add-opens=java.management/javax.management=ALL-UNNAMED --add-opens=java.naming/javax.naming=ALL-UNNAMED --add-exports=java.base/sun.nio.ch=ALL-UNNAMED --add-exports=jdk.unsupported/sun.misc=ALL-UNNAMED --add-exports=jdk.unsupported/sun.reflect=ALL-UNNAMED --add-modules=java.se -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 -XX:+ShowCodeDetailsInExceptionMessages 
+2023-02-23 11:49:39,398 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-23 11:49:39,411 INFO  [org.wildfly.security] (ServerService Thread Pool -- 6) ELY00001: WildFly Elytron version 1.3.3.Final
+2023-02-23 11:49:39,412 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 26) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-02-23 11:49:39,532 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 11:49:39,558 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-02-23 11:49:39,569 INFO  [org.xnio] (MSC service thread 1-1) XNIO version 3.6.3.Final
+2023-02-23 11:49:39,577 INFO  [org.xnio.nio] (MSC service thread 1-1) XNIO NIO Implementation Version 3.6.3.Final
+2023-02-23 11:49:39,611 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-02-23 11:49:39,614 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-02-23 11:49:39,620 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-02-23 11:49:39,640 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2023-02-23 11:49:39,640 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2023-02-23 11:49:39,640 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2023-02-23 11:49:39,640 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0119: The system property 'ee8.preview.mode' is NOT set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 7 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2023-02-23 11:49:39,646 INFO  [org.jboss.as.security] (MSC service thread 1-3) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2023-02-23 11:49:39,680 INFO  [org.jboss.as.connector] (MSC service thread 1-4) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2023-02-23 11:49:39,687 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-5) WFLYUT0003: Undertow 2.0.9.Final starting
+2023-02-23 11:49:39,690 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-02-23 11:49:39,701 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-02-23 11:49:39,704 INFO  [org.jboss.as.naming] (MSC service thread 1-5) WFLYNAM0003: Starting Naming Service
+2023-02-23 11:49:39,712 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-4) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-02-23 11:49:39,712 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2023-02-23 11:49:39,713 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0018: Started Driver service with driver-name = postgres
+2023-02-23 11:49:39,752 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 32 core threads with 256 task threads based on your 16 available processors
+2023-02-23 11:49:39,829 INFO  [org.jboss.remoting] (MSC service thread 1-1) JBoss Remoting version 5.0.7.Final
+2023-02-23 11:49:39,902 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+2023-02-23 11:49:39,906 INFO  [org.jboss.as.ejb3] (MSC service thread 1-5) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2023-02-23 11:49:39,906 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2023-02-23 11:49:39,933 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-8) WFLYJCA0098: Bound non-transactional data source: java:jboss/ipsDS
+2023-02-23 11:49:39,963 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path 'C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-02-23 11:49:39,975 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-02-23 11:49:39,978 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0018: Host default-host starting
+2023-02-23 11:49:40,015 INFO  [org.jboss.as.ejb3] (MSC service thread 1-2) WFLYEJB0493: EJB subsystem suspension complete
+2023-02-23 11:49:40,020 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-3) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-02-23 11:49:40,030 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-3) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-02-23 11:49:41,619 INFO  [org.jboss.as.patching] (MSC service thread 1-3) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-02-23 11:49:41,626 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-7) WFLYDM0111: Keystore C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-02-23 11:49:41,628 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-8) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\deployments
+2023-02-23 11:49:41,634 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 11:49:41,674 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-6) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-02-23 11:49:42,173 INFO  [org.jboss.ws.common.management] (MSC service thread 1-3) JBWS022052: Starting JBossWS 5.2.1.Final (Apache CXF 3.2.4.jbossorg-1) 
+2023-02-23 11:49:47,056 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,056 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,058 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,058 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,058 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,065 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 11:49:47,183 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 11:49:47,184 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 11:49:47,215 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 11:49:47,285 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-7) ISPN000128: Infinispan version: Infinispan 'Gaina' 9.2.4.Final
+2023-02-23 11:49:47,421 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2023-02-23 11:49:47,526 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 82) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 11:49:47,770 INFO  [stdout] (ServerService Thread Pool -- 82) 
+2023-02-23 11:49:47,770 INFO  [stdout] (ServerService Thread Pool -- 82)   .   ____          _            __ _ _
+2023-02-23 11:49:47,771 INFO  [stdout] (ServerService Thread Pool -- 82)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 11:49:47,771 INFO  [stdout] (ServerService Thread Pool -- 82) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 11:49:47,771 INFO  [stdout] (ServerService Thread Pool -- 82)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 11:49:47,771 INFO  [stdout] (ServerService Thread Pool -- 82)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 11:49:47,771 INFO  [stdout] (ServerService Thread Pool -- 82)  =========|_|==============|___/=/_/_/_/
+2023-02-23 11:49:47,772 INFO  [stdout] (ServerService Thread Pool -- 82)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 11:49:47,772 INFO  [stdout] (ServerService Thread Pool -- 82) 
+2023-02-23 11:49:47,779 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 5.3.6.Final
+2023-02-23 11:49:47,814 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 82) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 11:49:47,815 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 82) No active profile set, falling back to default profiles: default
+2023-02-23 11:49:49,031 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 82) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 11:49:49,176 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 82) Finished Spring Data repository scanning in 142 ms. Found 0 JDBC repository interfaces.
+2023-02-23 11:49:49,394 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 82) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7852cd78' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:49:49,402 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 82) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 11:49:49,449 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 82) Initializing Spring embedded WebApplicationContext
+2023-02-23 11:49:49,449 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 82) Root WebApplicationContext: initialization completed in 1599 ms
+2023-02-23 11:49:50,117 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 82) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 11:49:51,979 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 82) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6c09897c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5e02012c, org.springframework.security.web.header.HeaderWriterFilter@655c8560, org.springframework.security.web.authentication.logout.LogoutFilter@22a4021e, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@3eb874b3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@15fad2d8, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6ee8c9b2, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2db283c8, org.springframework.security.web.session.SessionManagementFilter@5549f66f, org.springframework.security.web.access.ExceptionTranslationFilter@13098e8e, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@78976547]
+2023-02-23 11:49:52,539 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 82) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 11:49:52,588 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 82) Started ServletInitializer in 5.011 seconds (JVM running for 14.748)
+2023-02-23 11:49:55,621 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 82) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 11:49:56,822 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 82) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 11:49:56,829 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 39) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 11:49:56,862 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-02-23 11:49:56,863 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-02-23 11:49:56,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-02-23 11:49:56,864 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) started in 18907ms - Started 810 of 1002 services (315 services are lazy, passive or on-demand)
+2023-02-23 11:50:23,038 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 11:50:23,038 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-02-23 11:50:23,040 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 2 ms
+2023-02-23 11:50:26,915 INFO  [stdout] (default task-2) sha1 : userNotFoundPassword
+2023-02-23 11:50:26,917 INFO  [stdout] (default task-2) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 11:50:26,944 INFO  [stdout] (default task-2) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 11:50:26,944 INFO  [stdout] (default task-2) sha1 : 0xgoldDesaIps2020
+2023-02-23 11:50:26,945 INFO  [stdout] (default task-2) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 11:50:48,718 INFO  [stdout] (default task-1) Posicion: 0
+2023-02-23 11:50:48,718 INFO  [stdout] (default task-1) direccion: desc
+2023-02-23 11:51:43,965 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-4) Forwarding to error page from request [/laboratoriosTomaMuestras/fecha/Invalid date] due to exception [null]: java.lang.IllegalArgumentException
+	at java.sql/java.sql.Date.valueOf(Date.java:141)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.dao.impl.LaboratorioOrdenJDBCTemplateImpl.listarLaboratoriosTomaMuestraPorFecha(LaboratorioOrdenJDBCTemplateImpl.java:435)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.services.impl.LaboratorioOrdenServiceImpl.listarTomaMuestraByFecha(LaboratorioOrdenServiceImpl.java:116)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.services.impl.LaboratorioOrdenServiceImpl$$FastClassBySpringCGLIB$$65dd70dd.invoke(<generated>)
+	at deployment.ips-1.0.0.war//org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:688)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.services.impl.LaboratorioOrdenServiceImpl$$EnhancerBySpringCGLIB$$aaa416fb.listarTomaMuestraByFecha(<generated>)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.controllers.LaboratoriosTomaMuestraController.obtenerTomaMuestras(LaboratoriosTomaMuestraController.java:248)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.controllers.LaboratoriosTomaMuestraController$$FastClassBySpringCGLIB$$93731120.invoke(<generated>)
+	at deployment.ips-1.0.0.war//org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:779)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at deployment.ips-1.0.0.war//org.springframework.security.access.intercept.aopalliance.MethodSecurityInterceptor.invoke(MethodSecurityInterceptor.java:61)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:750)
+	at deployment.ips-1.0.0.war//org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:692)
+	at deployment.ips-1.0.0.war//co.acuerdos.vida.ips.controllers.LaboratoriosTomaMuestraController$$EnhancerBySpringCGLIB$$e00eeff3.obtenerTomaMuestras(<generated>)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at deployment.ips-1.0.0.war//org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at deployment.ips-1.0.0.war//org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1063)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:963)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.api@1.0.2.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:687)
+	at deployment.ips-1.0.0.war//org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.api@1.0.2.Final//javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:218)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:212)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211)
+	at deployment.ips-1.0.0.war//org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at deployment.ips-1.0.0.war//org.springframework.boot.actuate.metrics.web.servlet.WebMvcMetricsFilter.doFilterInternal(WebMvcMetricsFilter.java:97)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at deployment.ips-1.0.0.war//org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at deployment.ips-1.0.0.war//org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at deployment.ips-1.0.0.war//org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at deployment.ips-1.0.0.war//org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at deployment.ips-1.0.0.war//org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.core@2.0.9.Final//io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.core@2.0.9.Final//io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.core@2.0.9.Final//io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.core@2.0.9.Final//io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow@13.0.0.Final//org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet@2.0.9.Final//io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.core@2.0.9.Final//io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads@2.3.2.Final//org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads@2.3.2.Final//org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads@2.3.2.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads@2.3.2.Final//org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.base/java.lang.Thread.run(Thread.java:833)
+
+2023-02-23 12:23:57,672 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:23:57,672 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 19) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:23:57,673 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 19) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:23:57,676 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 19) Closing Spring root WebApplicationContext
+2023-02-23 12:23:57,870 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 201ms
+2023-02-23 12:23:57,913 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:24:02,989 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:24:02,993 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:24:07,044 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,045 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,046 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,046 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,046 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,049 WARN  [org.jboss.as.ee] (MSC service thread 1-7) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:24:07,061 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:24:07,061 WARN  [org.jboss.weld.deployer] (MSC service thread 1-7) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:24:07,070 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:24:07,148 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101) Vista de agenda laboratior 39847 
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101)   .   ____          _            __ _ _
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:24:07,330 INFO  [stdout] (ServerService Thread Pool -- 101)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:24:07,331 INFO  [stdout] (ServerService Thread Pool -- 101)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:24:07,331 INFO  [stdout] (ServerService Thread Pool -- 101) 
+2023-02-23 12:24:07,366 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 101) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:24:07,366 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 101) No active profile set, falling back to default profiles: default
+2023-02-23 12:24:08,384 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 101) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:24:08,513 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 101) Finished Spring Data repository scanning in 126 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:24:08,673 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 101) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@53b1ddcd' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:24:08,679 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 101) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:24:08,718 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:24:08,718 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 101) Root WebApplicationContext: initialization completed in 1327 ms
+2023-02-23 12:24:09,300 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 101) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:24:10,817 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 101) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5b8df160, org.springframework.security.web.context.SecurityContextPersistenceFilter@4b6549a, org.springframework.security.web.header.HeaderWriterFilter@7d591c94, org.springframework.security.web.authentication.logout.LogoutFilter@618d2a08, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@640b6c3b, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7bf9051d, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@265977af, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@634900d2, org.springframework.security.web.session.SessionManagementFilter@6ae9ec40, org.springframework.security.web.access.ExceptionTranslationFilter@6b537048, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@694876a]
+2023-02-23 12:24:11,331 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 101) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:24:11,383 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 101) Started ServletInitializer in 4.191 seconds (JVM running for 2073.542)
+2023-02-23 12:24:11,391 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 101) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:24:12,285 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:24:12,302 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:24:21,434 INFO  [io.undertow.servlet] (default task-8) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:24:21,434 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-8) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:24:21,436 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-8) Completed initialization in 2 ms
+2023-02-23 12:24:23,695 INFO  [stdout] (default task-11) sha1 : userNotFoundPassword
+2023-02-23 12:24:23,695 INFO  [stdout] (default task-11) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:24:23,707 INFO  [stdout] (default task-11) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:24:23,707 INFO  [stdout] (default task-11) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:24:23,707 INFO  [stdout] (default task-11) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:25:22,333 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 101) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:25:22,333 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:25:22,333 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:25:22,333 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 101) Closing Spring root WebApplicationContext
+2023-02-23 12:25:22,448 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 115ms
+2023-02-23 12:25:22,460 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:25:27,462 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:25:32,539 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:25:36,442 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,442 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,443 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,443 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,444 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,446 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:25:36,458 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:25:36,458 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:25:36,466 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:25:36,549 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120) 
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120)   .   ____          _            __ _ _
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:25:36,718 INFO  [stdout] (ServerService Thread Pool -- 120)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:25:36,719 INFO  [stdout] (ServerService Thread Pool -- 120)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:25:36,719 INFO  [stdout] (ServerService Thread Pool -- 120) 
+2023-02-23 12:25:36,754 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 120) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:25:36,754 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 120) No active profile set, falling back to default profiles: default
+2023-02-23 12:25:37,629 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 120) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:25:37,762 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 120) Finished Spring Data repository scanning in 129 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:25:37,911 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 120) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@18ad5fd7' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:25:37,916 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 120) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:25:37,952 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:25:37,952 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 120) Root WebApplicationContext: initialization completed in 1173 ms
+2023-02-23 12:25:38,486 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 120) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:25:40,126 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 120) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@64de5097, org.springframework.security.web.context.SecurityContextPersistenceFilter@3ad1b06f, org.springframework.security.web.header.HeaderWriterFilter@2312639, org.springframework.security.web.authentication.logout.LogoutFilter@4b9f069a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6290dfef, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2fdc4cf0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@533bbf06, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@7a99b986, org.springframework.security.web.session.SessionManagementFilter@b1c826c, org.springframework.security.web.access.ExceptionTranslationFilter@687e9c66, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@139a1733]
+2023-02-23 12:25:40,653 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 120) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:25:40,707 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 120) Started ServletInitializer in 4.118 seconds (JVM running for 2162.866)
+2023-02-23 12:25:40,715 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 120) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:25:41,593 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 120) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:25:41,608 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:25:43,459 INFO  [io.undertow.servlet] (default task-11) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:25:43,459 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-11) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:25:43,461 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-11) Completed initialization in 2 ms
+2023-02-23 12:25:45,276 INFO  [stdout] (default task-16) sha1 : userNotFoundPassword
+2023-02-23 12:25:45,276 INFO  [stdout] (default task-16) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:25:45,287 INFO  [stdout] (default task-16) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:25:45,288 INFO  [stdout] (default task-16) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:25:45,288 INFO  [stdout] (default task-16) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:36:31,811 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 120) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:36:31,811 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:36:31,811 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:36:31,811 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 120) Closing Spring root WebApplicationContext
+2023-02-23 12:36:31,922 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 111ms
+2023-02-23 12:36:31,933 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:36:37,006 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:36:37,010 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:36:40,803 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,804 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,804 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,804 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,805 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,807 WARN  [org.jboss.as.ee] (MSC service thread 1-4) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:36:40,819 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:36:40,819 WARN  [org.jboss.weld.deployer] (MSC service thread 1-4) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:36:40,827 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:36:40,903 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 135) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135) 
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)   .   ____          _            __ _ _
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:36:41,054 INFO  [stdout] (ServerService Thread Pool -- 135)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:36:41,055 INFO  [stdout] (ServerService Thread Pool -- 135) 
+2023-02-23 12:36:41,088 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 135) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:36:41,089 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 135) No active profile set, falling back to default profiles: default
+2023-02-23 12:36:41,992 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 135) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:36:42,130 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 135) Finished Spring Data repository scanning in 134 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:36:42,282 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 135) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@7ae774a8' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:36:42,286 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 135) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:36:42,328 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 135) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:36:42,328 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 135) Root WebApplicationContext: initialization completed in 1219 ms
+2023-02-23 12:36:42,871 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 135) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:36:44,764 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 135) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2914bf0c, org.springframework.security.web.context.SecurityContextPersistenceFilter@5b84d8a3, org.springframework.security.web.header.HeaderWriterFilter@234abf71, org.springframework.security.web.authentication.logout.LogoutFilter@1df84b9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@48902a08, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1514ba0e, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@6b332fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6212623a, org.springframework.security.web.session.SessionManagementFilter@17e0d0ce, org.springframework.security.web.access.ExceptionTranslationFilter@68f14ec8, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3e67f262]
+2023-02-23 12:36:45,292 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 135) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:36:45,345 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 135) Started ServletInitializer in 4.409 seconds (JVM running for 2827.504)
+2023-02-23 12:36:45,353 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 135) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:36:46,269 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:36:46,287 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 2) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:38:59,222 INFO  [io.undertow.servlet] (default task-20) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:38:59,222 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-20) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:38:59,224 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-20) Completed initialization in 2 ms
+2023-02-23 12:39:01,516 INFO  [stdout] (default task-21) sha1 : userNotFoundPassword
+2023-02-23 12:39:01,516 INFO  [stdout] (default task-21) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:39:01,527 INFO  [stdout] (default task-21) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:39:01,527 INFO  [stdout] (default task-21) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:39:01,527 INFO  [stdout] (default task-21) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:43:46,424 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 135) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:43:46,424 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:43:46,424 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 135) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:43:46,424 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 135) Closing Spring root WebApplicationContext
+2023-02-23 12:43:46,550 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 126ms
+2023-02-23 12:43:46,563 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:43:51,634 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:43:51,638 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-8) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:43:55,690 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,690 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,690 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,690 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,690 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,693 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:43:55,703 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:43:55,703 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:43:55,711 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:43:55,773 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 139) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139) 
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)   .   ____          _            __ _ _
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:43:55,950 INFO  [stdout] (ServerService Thread Pool -- 139) 
+2023-02-23 12:43:55,990 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 139) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:43:55,990 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 139) No active profile set, falling back to default profiles: default
+2023-02-23 12:43:56,895 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 139) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:43:57,031 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 139) Finished Spring Data repository scanning in 132 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:43:57,204 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 139) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@6e03b7b0' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:43:57,208 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 139) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:43:57,246 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 139) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:43:57,246 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 139) Root WebApplicationContext: initialization completed in 1232 ms
+2023-02-23 12:43:57,770 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 139) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:43:59,217 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 139) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7f7098d2, org.springframework.security.web.context.SecurityContextPersistenceFilter@30c0527a, org.springframework.security.web.header.HeaderWriterFilter@3bdea7ed, org.springframework.security.web.authentication.logout.LogoutFilter@6c9b3f3f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@5e5c7ca3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5ee71e81, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@435b4bfa, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@4669ce, org.springframework.security.web.session.SessionManagementFilter@4512ce98, org.springframework.security.web.access.ExceptionTranslationFilter@a175785, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5797018b]
+2023-02-23 12:43:59,661 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 139) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:43:59,706 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 139) Started ServletInitializer in 3.902 seconds (JVM running for 3261.866)
+2023-02-23 12:43:59,714 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 139) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:44:00,576 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:44:00,590 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:44:16,668 INFO  [io.undertow.servlet] (default task-20) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:44:16,668 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-20) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:44:16,670 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-20) Completed initialization in 2 ms
+2023-02-23 12:44:18,878 INFO  [stdout] (default task-20) sha1 : userNotFoundPassword
+2023-02-23 12:44:18,879 INFO  [stdout] (default task-20) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:44:18,889 INFO  [stdout] (default task-20) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:44:18,889 INFO  [stdout] (default task-20) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:44:18,889 INFO  [stdout] (default task-20) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:45:40,624 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 139) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:45:40,624 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:45:40,624 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 139) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:45:40,625 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 139) Closing Spring root WebApplicationContext
+2023-02-23 12:45:40,749 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-7) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 124ms
+2023-02-23 12:45:40,761 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:45:45,833 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:45:45,836 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:45:50,010 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,010 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,011 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,011 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,011 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,013 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:45:50,024 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:45:50,024 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:45:50,031 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:45:50,123 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 166) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:45:50,287 INFO  [stdout] (ServerService Thread Pool -- 166) 
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)   .   ____          _            __ _ _
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:45:50,288 INFO  [stdout] (ServerService Thread Pool -- 166) 
+2023-02-23 12:45:50,327 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 166) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:45:50,328 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 166) No active profile set, falling back to default profiles: default
+2023-02-23 12:45:51,277 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 166) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:45:51,416 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 166) Finished Spring Data repository scanning in 136 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:45:51,564 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 166) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@a9d622f' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:45:51,568 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 166) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:45:51,608 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 166) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:45:51,609 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 166) Root WebApplicationContext: initialization completed in 1258 ms
+2023-02-23 12:45:52,232 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 166) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:45:53,940 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 166) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@399d5e09, org.springframework.security.web.context.SecurityContextPersistenceFilter@2fe72a90, org.springframework.security.web.header.HeaderWriterFilter@75cc0301, org.springframework.security.web.authentication.logout.LogoutFilter@1ec434ae, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2f35009a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@7b21b84c, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2da3c618, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1d066ffd, org.springframework.security.web.session.SessionManagementFilter@1f898b6a, org.springframework.security.web.access.ExceptionTranslationFilter@1b9a5817, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@5dcc4bc5]
+2023-02-23 12:45:54,412 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 166) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:45:54,456 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 166) Started ServletInitializer in 4.295 seconds (JVM running for 3376.616)
+2023-02-23 12:45:54,463 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 166) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:45:55,311 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 166) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:45:55,325 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:47:39,927 INFO  [io.undertow.servlet] (default task-22) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:47:39,927 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-22) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:47:39,928 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-22) Completed initialization in 1 ms
+2023-02-23 12:47:41,739 INFO  [stdout] (default task-30) sha1 : userNotFoundPassword
+2023-02-23 12:47:41,739 INFO  [stdout] (default task-30) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:47:41,749 INFO  [stdout] (default task-30) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:47:41,749 INFO  [stdout] (default task-30) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:47:41,749 INFO  [stdout] (default task-30) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:49:55,413 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:49:55,413 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 169) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:49:55,413 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 169) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:49:55,413 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 169) Closing Spring root WebApplicationContext
+2023-02-23 12:49:55,522 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 110ms
+2023-02-23 12:49:55,532 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:50:00,603 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:50:00,606 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:50:04,475 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,476 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,476 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,476 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,477 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,480 WARN  [org.jboss.as.ee] (MSC service thread 1-5) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:50:04,489 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-5) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:50:04,489 WARN  [org.jboss.weld.deployer] (MSC service thread 1-5) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:50:04,495 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:50:04,567 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 184) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:50:04,756 INFO  [stdout] (ServerService Thread Pool -- 184) 
+2023-02-23 12:50:04,756 INFO  [stdout] (ServerService Thread Pool -- 184)   .   ____          _            __ _ _
+2023-02-23 12:50:04,756 INFO  [stdout] (ServerService Thread Pool -- 184)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:50:04,757 INFO  [stdout] (ServerService Thread Pool -- 184) 
+2023-02-23 12:50:04,789 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 184) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:50:04,790 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 184) No active profile set, falling back to default profiles: default
+2023-02-23 12:50:05,667 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 184) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:50:05,807 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 184) Finished Spring Data repository scanning in 136 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:50:05,977 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 184) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@5a71da77' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:50:05,980 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 184) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:50:06,016 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 184) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:50:06,016 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 184) Root WebApplicationContext: initialization completed in 1209 ms
+2023-02-23 12:50:06,631 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 184) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:50:08,136 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 184) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@11f5e6c, org.springframework.security.web.context.SecurityContextPersistenceFilter@1e859009, org.springframework.security.web.header.HeaderWriterFilter@ad1bbc4, org.springframework.security.web.authentication.logout.LogoutFilter@506a7f9b, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1fae87b6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@5bcbe445, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@526043c5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@c58ad71, org.springframework.security.web.session.SessionManagementFilter@6bfab479, org.springframework.security.web.access.ExceptionTranslationFilter@556bb55a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@262a9a26]
+2023-02-23 12:50:08,528 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 184) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:50:08,574 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 184) Started ServletInitializer in 3.963 seconds (JVM running for 3630.734)
+2023-02-23 12:50:08,582 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 184) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:50:09,498 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 184) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:50:09,518 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:50:11,600 INFO  [io.undertow.servlet] (default task-33) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:50:11,600 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-33) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:50:11,602 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-33) Completed initialization in 2 ms
+2023-02-23 12:50:13,213 INFO  [stdout] (default task-30) sha1 : userNotFoundPassword
+2023-02-23 12:50:13,213 INFO  [stdout] (default task-30) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:50:13,224 INFO  [stdout] (default task-30) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:50:13,225 INFO  [stdout] (default task-30) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:50:13,225 INFO  [stdout] (default task-30) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:51:04,540 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 184) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:51:04,540 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:51:04,541 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 184) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:51:04,541 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 184) Closing Spring root WebApplicationContext
+2023-02-23 12:51:04,650 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 109ms
+2023-02-23 12:51:04,660 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:51:09,730 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:51:09,732 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:51:13,593 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,593 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,594 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,594 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,594 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,596 WARN  [org.jboss.as.ee] (MSC service thread 1-1) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:51:13,606 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:51:13,607 WARN  [org.jboss.weld.deployer] (MSC service thread 1-1) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:51:13,615 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:51:13,682 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 189) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189) 
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189)   .   ____          _            __ _ _
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:51:13,864 INFO  [stdout] (ServerService Thread Pool -- 189)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:51:13,865 INFO  [stdout] (ServerService Thread Pool -- 189)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:51:13,865 INFO  [stdout] (ServerService Thread Pool -- 189) 
+2023-02-23 12:51:13,896 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 189) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:51:13,897 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 189) No active profile set, falling back to default profiles: default
+2023-02-23 12:51:14,752 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 189) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:51:14,885 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 189) Finished Spring Data repository scanning in 129 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:51:15,031 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 189) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1caf09db' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:51:15,034 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 189) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:51:15,069 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 189) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:51:15,069 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 189) Root WebApplicationContext: initialization completed in 1153 ms
+2023-02-23 12:51:15,644 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 189) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:51:17,090 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 189) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@4e024ba4, org.springframework.security.web.context.SecurityContextPersistenceFilter@61514578, org.springframework.security.web.header.HeaderWriterFilter@33b82bc2, org.springframework.security.web.authentication.logout.LogoutFilter@5e0ad102, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@68a6cb6, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2db90c42, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@561b3005, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@2e319294, org.springframework.security.web.session.SessionManagementFilter@31f68402, org.springframework.security.web.access.ExceptionTranslationFilter@7fc14e79, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@21f0c054]
+2023-02-23 12:51:17,491 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 189) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:51:17,535 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 189) Started ServletInitializer in 3.814 seconds (JVM running for 3699.694)
+2023-02-23 12:51:17,542 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 189) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:51:18,408 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 189) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:51:18,426 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:51:25,227 INFO  [io.undertow.servlet] (default task-35) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:51:25,227 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-35) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:51:25,229 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-35) Completed initialization in 2 ms
+2023-02-23 12:51:26,813 INFO  [stdout] (default task-35) sha1 : userNotFoundPassword
+2023-02-23 12:51:26,813 INFO  [stdout] (default task-35) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:51:26,822 INFO  [stdout] (default task-35) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:51:26,822 INFO  [stdout] (default task-35) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:51:26,822 INFO  [stdout] (default task-35) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:58:43,582 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 189) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 12:58:43,582 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:58:43,582 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 189) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 12:58:43,582 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 189) Closing Spring root WebApplicationContext
+2023-02-23 12:58:43,702 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-4) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 120ms
+2023-02-23 12:58:43,713 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:58:48,783 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 12:58:48,786 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-1) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 12:58:52,734 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,734 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,735 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,735 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,735 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,737 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 12:58:52,745 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 12:58:52,746 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 12:58:52,765 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 12:58:52,885 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 210) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 12:58:53,059 INFO  [stdout] (ServerService Thread Pool -- 210) 
+2023-02-23 12:58:53,059 INFO  [stdout] (ServerService Thread Pool -- 210)   .   ____          _            __ _ _
+2023-02-23 12:58:53,059 INFO  [stdout] (ServerService Thread Pool -- 210)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210)  =========|_|==============|___/=/_/_/_/
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 12:58:53,060 INFO  [stdout] (ServerService Thread Pool -- 210) 
+2023-02-23 12:58:53,091 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 210) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 12:58:53,092 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 210) No active profile set, falling back to default profiles: default
+2023-02-23 12:58:53,965 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 210) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 12:58:54,095 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 210) Finished Spring Data repository scanning in 126 ms. Found 0 JDBC repository interfaces.
+2023-02-23 12:58:54,242 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 210) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@1b6dc20e' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:58:54,246 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 210) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 12:58:54,286 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 210) Initializing Spring embedded WebApplicationContext
+2023-02-23 12:58:54,286 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 210) Root WebApplicationContext: initialization completed in 1176 ms
+2023-02-23 12:58:54,858 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 210) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 12:58:56,298 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 210) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@16625688, org.springframework.security.web.context.SecurityContextPersistenceFilter@7aa0a2ee, org.springframework.security.web.header.HeaderWriterFilter@5e68a6ff, org.springframework.security.web.authentication.logout.LogoutFilter@3bf4effd, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@6fc89f42, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19e0834f, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2111cf78, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3acbf2d, org.springframework.security.web.session.SessionManagementFilter@6058e365, org.springframework.security.web.access.ExceptionTranslationFilter@61d23200, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@46c0f8ee]
+2023-02-23 12:58:56,748 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 210) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 12:58:56,797 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 210) Started ServletInitializer in 3.874 seconds (JVM running for 4158.956)
+2023-02-23 12:58:56,803 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 210) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 12:58:57,668 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 210) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 12:58:57,685 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 12:59:02,640 INFO  [io.undertow.servlet] (default task-42) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 12:59:02,640 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-42) Initializing Servlet 'dispatcherServlet'
+2023-02-23 12:59:02,642 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-42) Completed initialization in 2 ms
+2023-02-23 12:59:04,562 INFO  [stdout] (default task-42) sha1 : userNotFoundPassword
+2023-02-23 12:59:04,563 INFO  [stdout] (default task-42) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 12:59:04,574 INFO  [stdout] (default task-42) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 12:59:04,574 INFO  [stdout] (default task-42) sha1 : 0xgoldDesaIps2020
+2023-02-23 12:59:04,574 INFO  [stdout] (default task-42) md5: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 13:01:07,733 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 210) WFLYUT0022: Unregistered web context: '/ips-1.0.0' from server 'default-server'
+2023-02-23 13:01:07,733 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0019: Stopped Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 13:01:07,733 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 210) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-02-23 13:01:07,734 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 210) Closing Spring root WebApplicationContext
+2023-02-23 13:01:07,843 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-3) WFLYSRV0028: Stopped deployment ips-1.0.0.war (runtime-name: ips-1.0.0.war) in 110ms
+2023-02-23 13:01:07,859 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 13:01:12,932 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found ips-1.0.0.war in deployment directory. To trigger deployment create a file called ips-1.0.0.war.dodeploy
+2023-02-23 13:01:12,935 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0027: Starting deployment of "ips-1.0.0.war" (runtime-name: "ips-1.0.0.war")
+2023-02-23 13:01:16,896 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,896 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component io.micrometer.core.instrument.binder.jetty.OnCompletionAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,896 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,896 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,896 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,898 WARN  [org.jboss.as.ee] (MSC service thread 1-2) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-02-23 13:01:16,906 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-2) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.2)
+2023-02-23 13:01:16,907 WARN  [org.jboss.weld.deployer] (MSC service thread 1-2) WFLYWELD0013: Deployment ips-1.0.0.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-02-23 13:01:16,912 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = ips-1.0.0.war_org.postgresql.Driver_42_2
+2023-02-23 13:01:16,971 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 212) 2 Spring WebApplicationInitializers detected on classpath
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212) 
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)   .   ____          _            __ _ _
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)  =========|_|==============|___/=/_/_/_/
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212)  :: Spring Boot ::                (v2.4.6)
+2023-02-23 13:01:17,128 INFO  [stdout] (ServerService Thread Pool -- 212) 
+2023-02-23 13:01:17,159 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 212) Starting ServletInitializer using Java 17.0.5 on JohnWarrior with PID 11972 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-02-23 13:01:17,160 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 212) No active profile set, falling back to default profiles: default
+2023-02-23 13:01:18,046 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 212) Bootstrapping Spring Data JDBC repositories in DEFAULT mode.
+2023-02-23 13:01:18,176 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 212) Finished Spring Data repository scanning in 127 ms. Found 0 JDBC repository interfaces.
+2023-02-23 13:01:18,324 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 212) Bean 'org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler@554f0b02' of type [org.springframework.security.access.expression.method.DefaultMethodSecurityExpressionHandler] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 13:01:18,329 INFO  [org.springframework.context.support.PostProcessorRegistrationDelegate$BeanPostProcessorChecker] (ServerService Thread Pool -- 212) Bean 'methodSecurityMetadataSource' of type [org.springframework.security.access.method.DelegatingMethodSecurityMetadataSource] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2023-02-23 13:01:18,374 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 212) Initializing Spring embedded WebApplicationContext
+2023-02-23 13:01:18,375 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 212) Root WebApplicationContext: initialization completed in 1196 ms
+2023-02-23 13:01:18,901 INFO  [org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor] (ServerService Thread Pool -- 212) Autowired annotation should only be used on methods with parameters: public java.util.List co.acuerdos.vida.ips.services.impl.ConsultorioServiceImpl.listar()
+2023-02-23 13:01:20,479 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 212) Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5f4f80f1, org.springframework.security.web.context.SecurityContextPersistenceFilter@306061df, org.springframework.security.web.header.HeaderWriterFilter@1b6086a6, org.springframework.security.web.authentication.logout.LogoutFilter@2ed7a32f, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41d733cd, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@66c7d188, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7a98b589, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6e3143e2, org.springframework.security.web.session.SessionManagementFilter@4c59c9b5, org.springframework.security.web.access.ExceptionTranslationFilter@3b04a672, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@61f91e86]
+2023-02-23 13:01:20,931 INFO  [org.springframework.boot.actuate.endpoint.web.EndpointLinksResolver] (ServerService Thread Pool -- 212) Exposing 2 endpoint(s) beneath base path '/actuator'
+2023-02-23 13:01:20,977 INFO  [co.acuerdos.vida.ips.ServletInitializer] (ServerService Thread Pool -- 212) Started ServletInitializer in 3.972 seconds (JVM running for 4303.137)
+2023-02-23 13:01:20,983 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 212) Inicializando Mojarra 2.2.13.SP5  para el contexto '/ips-1.0.0'
+2023-02-23 13:01:21,827 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 212) WFLYUT0021: Registered web context: '/ips-1.0.0' for server 'default-server'
+2023-02-23 13:01:21,842 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "ips-1.0.0.war" (runtime-name : "ips-1.0.0.war")
+2023-02-23 13:01:35,433 INFO  [io.undertow.servlet] (default task-48) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-02-23 13:01:35,433 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-48) Initializing Servlet 'dispatcherServlet'
+2023-02-23 13:01:35,434 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-48) Completed initialization in 1 ms
+2023-02-23 13:01:37,983 INFO  [stdout] (default task-48) sha1 : userNotFoundPassword
+2023-02-23 13:01:37,984 INFO  [stdout] (default task-48) md5: f0ded8f0f53fbf889e9aaf02f1460918
+2023-02-23 13:01:37,994 INFO  [stdout] (default task-48) encoded: 02d588f7fd2b0761dafc3a94ba89b14e
+2023-02-23 13:01:37,995 INFO  [stdout] (default task-48) sha1 : 0xgoldDesaIps2020
+2023-02-23 13:01:37,995 INFO  [stdout] (default task-48) md5: 02d588f7fd2b0761dafc3a94ba89b14e

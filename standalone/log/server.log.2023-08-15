@@ -1,0 +1,801 @@
+2023-08-15 00:01:21,799 INFO  [stdout] (default task-86) USUARIO:::Usuario [codigo=1, username=1075303330, password=5AE2BACFFEBDF3E8E37DECDD343AC728, state=true, persona=Persona(codigo=1, identificacion=1075303330, tipoId=null, libretaMilitar=null, nombre=JOHN DAVID, apellido=GUERRERO CORDOBA, sexoBiologico=null, lugarExpedición=0, expedicion=null, edad=null), role=1]FUNCION:: 12345 U 5AE2BACFFEBDF3E8E37DECDD343AC728 U 5AE2BACFFEBDF3E8E37DECDD343AC728
+2023-08-15 00:01:21,804 INFO  [stdout] (default task-86) ::::d9d679e9-54ff-4a91-9229-ea3653aadcbb
+2023-08-15 00:17:27,275 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0019: Stopped Driver service with driver-name = corhuila-0.0.1-SNAPSHOT.war_org.postgresql.Driver_42_3
+2023-08-15 00:17:27,279 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 196) WFLYUT0022: Unregistered web context: '/corhuila-0.0.1-SNAPSHOT' from server 'default-server'
+2023-08-15 00:17:27,280 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 196) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 00:17:27,284 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 196) Closing Spring root WebApplicationContext
+2023-08-15 00:17:27,293 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 196) Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 00:17:27,401 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0028: Stopped deployment corhuila-0.0.1-SNAPSHOT.war (runtime-name: corhuila-0.0.1-SNAPSHOT.war) in 130ms
+2023-08-15 00:17:27,422 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "corhuila-0.0.1-SNAPSHOT.war" (runtime-name: "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:17:32,444 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found corhuila-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called corhuila-0.0.1-SNAPSHOT.war.dodeploy
+2023-08-15 00:17:32,449 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-2) WFLYSRV0027: Starting deployment of "corhuila-0.0.1-SNAPSHOT.war" (runtime-name: "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:17:34,762 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:17:34,762 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:17:34,763 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:17:34,763 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:17:34,764 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:17:34,781 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2023-08-15 00:17:34,782 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment corhuila-0.0.1-SNAPSHOT.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-08-15 00:17:34,796 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-8) WFLYJCA0018: Started Driver service with driver-name = corhuila-0.0.1-SNAPSHOT.war_org.postgresql.Driver_42_3
+2023-08-15 00:17:34,828 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 208) 2 Spring WebApplicationInitializers detected on classpath
+2023-08-15 00:17:36,074 INFO  [org.springframework.cloud.commons.util.InetUtils] (ServerService Thread Pool -- 208) Cannot determine local hostname
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208) 
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208)   .   ____          _            __ _ _
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-08-15 00:17:36,219 INFO  [stdout] (ServerService Thread Pool -- 208)  =========|_|==============|___/=/_/_/_/
+2023-08-15 00:17:36,220 INFO  [stdout] (ServerService Thread Pool -- 208)  :: Spring Boot ::               (v2.7.14)
+2023-08-15 00:17:36,220 INFO  [stdout] (ServerService Thread Pool -- 208) 
+2023-08-15 00:17:36,270 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 208) Starting ServletInitializer using Java 1.8.0_202 on JohnWarrior with PID 15680 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-08-15 00:17:36,271 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 208) The following 1 profile is active: "local"
+2023-08-15 00:17:36,748 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 208) Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 00:17:36,769 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 208) Finished Spring Data repository scanning in 15 ms. Found 0 JPA repository interfaces.
+2023-08-15 00:17:36,919 INFO  [org.springframework.cloud.context.scope.GenericScope] (ServerService Thread Pool -- 208) BeanFactory id=f3df737c-d97e-3d2c-a6be-afa7d8b3701d
+2023-08-15 00:17:37,042 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 208) Initializing Spring embedded WebApplicationContext
+2023-08-15 00:17:37,042 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 208) Root WebApplicationContext: initialization completed in 745 ms
+2023-08-15 00:17:37,335 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 208) HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 00:17:37,404 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 208) HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 00:17:37,538 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 208) HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 00:17:37,624 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 208) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-08-15 00:17:37,677 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 208) HHH000490: Using JtaPlatform implementation: [org.springframework.boot.orm.jpa.hibernate.SpringJtaPlatform]
+2023-08-15 00:17:37,750 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 208) Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 00:17:37,793 WARN  [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] (ServerService Thread Pool -- 208) spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 00:17:37,986 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 208) Configured with RSA signing key
+2023-08-15 00:17:37,990 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 208) Signing and verification RSA keys match
+2023-08-15 00:17:38,396 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 208) Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@57ee97d1, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3a563fc5, org.springframework.security.web.context.SecurityContextPersistenceFilter@272242db, org.springframework.security.web.header.HeaderWriterFilter@3d6dd8b4, org.springframework.security.web.authentication.logout.LogoutFilter@2d6aeead, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@1ae12d8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@55900cc0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@8d61d0d, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@45d3937f, org.springframework.security.web.session.SessionManagementFilter@428f0d63, org.springframework.security.web.access.ExceptionTranslationFilter@57cf66e2, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4f1ab4ac]
+2023-08-15 00:17:38,416 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 208) Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@70bae784 with [org.springframework.security.web.session.DisableEncodeUrlFilter@13a2e46f, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5fe73927, org.springframework.security.web.context.SecurityContextPersistenceFilter@2cd34704, org.springframework.security.web.header.HeaderWriterFilter@58d1a2a3, org.springframework.web.filter.CorsFilter@513f0cd2, org.springframework.security.web.authentication.logout.LogoutFilter@4e9e0550, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@718205e4, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@1cba066a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1d7530d0, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@48644d67, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@769e47b6, org.springframework.security.web.session.SessionManagementFilter@4fffed15, org.springframework.security.web.access.ExceptionTranslationFilter@447ead3b, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7c55bd62]
+2023-08-15 00:17:38,420 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 208) Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@7caafecc, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7444678c, org.springframework.security.web.context.SecurityContextPersistenceFilter@331f61f1, org.springframework.security.web.header.HeaderWriterFilter@2066e930, org.springframework.security.web.authentication.logout.LogoutFilter@43e5b4d5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@19e95622, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@e510346, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@530fb3e5, org.springframework.security.web.session.SessionManagementFilter@2c153f91, org.springframework.security.web.access.ExceptionTranslationFilter@3e7285dd, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@19374fed]
+2023-08-15 00:17:39,846 INFO  [org.springframework.cloud.commons.util.InetUtils] (ServerService Thread Pool -- 208) Cannot determine local hostname
+2023-08-15 00:17:40,015 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 208) Started ServletInitializer in 5.126 seconds (JVM running for 14623.149)
+2023-08-15 00:17:40,023 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 208) Inicializando Mojarra 2.2.13.SP5  para el contexto '/corhuila-0.0.1-SNAPSHOT'
+2023-08-15 00:17:41,617 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 208) WFLYUT0021: Registered web context: '/corhuila-0.0.1-SNAPSHOT' for server 'default-server'
+2023-08-15 00:17:41,640 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "corhuila-0.0.1-SNAPSHOT.war" (runtime-name : "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:17:51,700 INFO  [io.undertow.servlet] (default task-96) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 00:17:51,700 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-96) Initializing Servlet 'dispatcherServlet'
+2023-08-15 00:17:51,701 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-96) Completed initialization in 1 ms
+2023-08-15 00:18:16,421 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-102) Forwarding to error page from request [/institucion/registrar-institucion] due to exception [PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (1, 444--666, 45645, 5645, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (1, 444--666, 45645, 5645, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).]: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (1, 444--666, 45645, 5645, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (1, 444--666, 45645, 5645, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1583)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:675)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:968)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1023)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1033)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl.registrar(InstitucionDaoImpl.java:68)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$FastClassBySpringCGLIB$$75a00292.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$EnhancerBySpringCGLIB$$a8f1e53c.registrar(<generated>)
+	at com.corhuila.corhuila.serviceImpl.InstitucionServiceImp.registrar(InstitucionServiceImp.java:45)
+	at com.corhuila.corhuila.restController.InstitucionRestController.registrar(InstitucionRestController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (1, 444--666, 45645, 5645, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:537)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:973)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:656)
+	... 146 more
+
+2023-08-15 00:20:29,899 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-107) Forwarding to error page from request [/institucion/registrar-institucion] due to exception [PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (2, 44-655, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (2, 44-655, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).]: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (2, 44-655, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (2, 44-655, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1583)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:675)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:968)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1023)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1033)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl.registrar(InstitucionDaoImpl.java:68)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$FastClassBySpringCGLIB$$75a00292.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$EnhancerBySpringCGLIB$$a8f1e53c.registrar(<generated>)
+	at com.corhuila.corhuila.serviceImpl.InstitucionServiceImp.registrar(InstitucionServiceImp.java:45)
+	at com.corhuila.corhuila.restController.InstitucionRestController.registrar(InstitucionRestController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: ERROR: el valor null para la columna «dep_divipola» viola la restricción not null
+  Detail: La fila que falla contiene (2, 44-655, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, null, null, null, null, null, null, null, 1).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:537)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:973)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:656)
+	... 146 more
+
+2023-08-15 00:22:21,827 ERROR [org.springframework.boot.web.servlet.support.ErrorPageFilter] (default task-110) Forwarding to error page from request [/institucion/registrar-institucion] due to exception [PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «ins_direccion» viola la restricción not null
+  Detail: La fila que falla contiene (3, 44-55, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, 05, 05001, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «ins_direccion» viola la restricción not null
+  Detail: La fila que falla contiene (3, 44-55, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, 05, 05001, null, null, null, null, null, 1).]: org.springframework.dao.DataIntegrityViolationException: PreparedStatementCallback; SQL [INSERT INTO general.institucion (ins_nit, ins_ies, ins_ies_padre, naj_codigo, sec_codigo, caa_codigo, ins_nombre, pai_codigo, dep_divipola, mun_divipola, ins_direccion, ins_telefono, ins_pagina_web, ins_norma_creacion, ins_fecha_norma) VALUES(?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?);]; ERROR: el valor null para la columna «ins_direccion» viola la restricción not null
+  Detail: La fila que falla contiene (3, 44-55, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, 05, 05001, null, null, null, null, null, 1).; nested exception is org.postgresql.util.PSQLException: ERROR: el valor null para la columna «ins_direccion» viola la restricción not null
+  Detail: La fila que falla contiene (3, 44-55, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, 05, 05001, null, null, null, null, null, 1).
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:251)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:70)
+	at org.springframework.jdbc.core.JdbcTemplate.translateException(JdbcTemplate.java:1583)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:675)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:968)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1023)
+	at org.springframework.jdbc.core.JdbcTemplate.update(JdbcTemplate.java:1033)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl.registrar(InstitucionDaoImpl.java:68)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$FastClassBySpringCGLIB$$75a00292.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:218)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:793)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.dao.support.PersistenceExceptionTranslationInterceptor.invoke(PersistenceExceptionTranslationInterceptor.java:137)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:186)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:763)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:708)
+	at com.corhuila.corhuila.daoImpl.InstitucionDaoImpl$$EnhancerBySpringCGLIB$$a8f1e53c.registrar(<generated>)
+	at com.corhuila.corhuila.serviceImpl.InstitucionServiceImp.registrar(InstitucionServiceImp.java:45)
+	at com.corhuila.corhuila.restController.InstitucionRestController.registrar(InstitucionRestController.java:51)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:150)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:117)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:895)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1072)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:965)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:707)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:790)
+	at io.undertow.servlet.handlers.ServletHandler.handleRequest(ServletHandler.java:74)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:129)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:337)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115)
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:122)
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:116)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126)
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:109)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:223)
+	at org.springframework.security.web.authentication.AbstractAuthenticationProcessingFilter.doFilter(AbstractAuthenticationProcessingFilter.java:217)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter.doFilter(OAuth2AuthenticationProcessingFilter.java:176)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103)
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90)
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:112)
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:82)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.session.DisableEncodeUrlFilter.doFilterInternal(DisableEncodeUrlFilter.java:42)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:346)
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:221)
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:186)
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:354)
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:267)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:126)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.access$000(ErrorPageFilter.java:64)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter$1.doFilterInternal(ErrorPageFilter.java:101)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at org.springframework.boot.web.servlet.support.ErrorPageFilter.doFilter(ErrorPageFilter.java:119)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at org.springframework.web.filter.CorsFilter.doFilterInternal(CorsFilter.java:91)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:117)
+	at io.undertow.servlet.core.ManagedFilter.doFilter(ManagedFilter.java:61)
+	at io.undertow.servlet.handlers.FilterHandler$FilterChainImpl.doFilter(FilterHandler.java:131)
+	at io.undertow.servlet.handlers.FilterHandler.handleRequest(FilterHandler.java:84)
+	at io.undertow.servlet.handlers.security.ServletSecurityRoleHandler.handleRequest(ServletSecurityRoleHandler.java:62)
+	at io.undertow.servlet.handlers.ServletChain$1.handleRequest(ServletChain.java:68)
+	at io.undertow.servlet.handlers.ServletDispatchingHandler.handleRequest(ServletDispatchingHandler.java:36)
+	at org.wildfly.extension.undertow.security.SecurityContextAssociationHandler.handleRequest(SecurityContextAssociationHandler.java:78)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.security.SSLInformationAssociationHandler.handleRequest(SSLInformationAssociationHandler.java:132)
+	at io.undertow.servlet.handlers.security.ServletAuthenticationCallHandler.handleRequest(ServletAuthenticationCallHandler.java:57)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.security.handlers.AbstractConfidentialityHandler.handleRequest(AbstractConfidentialityHandler.java:46)
+	at io.undertow.servlet.handlers.security.ServletConfidentialityConstraintHandler.handleRequest(ServletConfidentialityConstraintHandler.java:64)
+	at io.undertow.security.handlers.AuthenticationMechanismsHandler.handleRequest(AuthenticationMechanismsHandler.java:60)
+	at io.undertow.servlet.handlers.security.CachedAuthenticatedSessionHandler.handleRequest(CachedAuthenticatedSessionHandler.java:77)
+	at io.undertow.security.handlers.NotificationReceiverHandler.handleRequest(NotificationReceiverHandler.java:50)
+	at io.undertow.security.handlers.AbstractSecurityContextAssociationHandler.handleRequest(AbstractSecurityContextAssociationHandler.java:43)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.security.jacc.JACCContextIdHandler.handleRequest(JACCContextIdHandler.java:61)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at org.wildfly.extension.undertow.deployment.GlobalRequestControllerHandler.handleRequest(GlobalRequestControllerHandler.java:68)
+	at io.undertow.server.handlers.PredicateHandler.handleRequest(PredicateHandler.java:43)
+	at io.undertow.servlet.handlers.ServletInitialHandler.handleFirstRequest(ServletInitialHandler.java:292)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$100(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:138)
+	at io.undertow.servlet.handlers.ServletInitialHandler$2.call(ServletInitialHandler.java:135)
+	at io.undertow.servlet.core.ServletRequestContextThreadSetupAction$1.call(ServletRequestContextThreadSetupAction.java:48)
+	at io.undertow.servlet.core.ContextClassLoaderSetupAction$1.call(ContextClassLoaderSetupAction.java:43)
+	at org.wildfly.extension.undertow.security.SecurityContextThreadSetupAction.lambda$create$0(SecurityContextThreadSetupAction.java:105)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at org.wildfly.extension.undertow.deployment.UndertowDeploymentInfoService$UndertowThreadSetupAction.lambda$create$0(UndertowDeploymentInfoService.java:1514)
+	at io.undertow.servlet.handlers.ServletInitialHandler.dispatchRequest(ServletInitialHandler.java:272)
+	at io.undertow.servlet.handlers.ServletInitialHandler.access$000(ServletInitialHandler.java:81)
+	at io.undertow.servlet.handlers.ServletInitialHandler$1.handleRequest(ServletInitialHandler.java:104)
+	at io.undertow.server.Connectors.executeRootHandler(Connectors.java:360)
+	at io.undertow.server.HttpServerExchange$1.run(HttpServerExchange.java:830)
+	at org.jboss.threads.ContextClassLoaderSavingRunnable.run(ContextClassLoaderSavingRunnable.java:35)
+	at org.jboss.threads.EnhancedQueueExecutor.safeRun(EnhancedQueueExecutor.java:1985)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.doRunTask(EnhancedQueueExecutor.java:1487)
+	at org.jboss.threads.EnhancedQueueExecutor$ThreadBody.run(EnhancedQueueExecutor.java:1378)
+	at java.lang.Thread.run(Thread.java:748)
+Caused by: org.postgresql.util.PSQLException: ERROR: el valor null para la columna «ins_direccion» viola la restricción not null
+  Detail: La fila que falla contiene (3, 44-55, 45454, 4545, 1, 1, 1, 2023-08-15T05:00:00.000Z, 43, 05, 05001, null, null, null, null, null, 1).
+	at org.postgresql.core.v3.QueryExecutorImpl.receiveErrorResponse(QueryExecutorImpl.java:2182)
+	at org.postgresql.core.v3.QueryExecutorImpl.processResults(QueryExecutorImpl.java:1911)
+	at org.postgresql.core.v3.QueryExecutorImpl.execute(QueryExecutorImpl.java:173)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.execute(AbstractJdbc2Statement.java:645)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeWithFlags(AbstractJdbc2Statement.java:495)
+	at org.postgresql.jdbc2.AbstractJdbc2Statement.executeUpdate(AbstractJdbc2Statement.java:441)
+	at org.jboss.jca.adapters.jdbc.WrappedPreparedStatement.executeUpdate(WrappedPreparedStatement.java:537)
+	at org.springframework.jdbc.core.JdbcTemplate.lambda$update$2(JdbcTemplate.java:973)
+	at org.springframework.jdbc.core.JdbcTemplate.execute(JdbcTemplate.java:656)
+	... 146 more
+
+2023-08-15 00:25:12,592 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-7) WFLYJCA0019: Stopped Driver service with driver-name = corhuila-0.0.1-SNAPSHOT.war_org.postgresql.Driver_42_3
+2023-08-15 00:25:12,592 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 208) WFLYUT0022: Unregistered web context: '/corhuila-0.0.1-SNAPSHOT' from server 'default-server'
+2023-08-15 00:25:12,592 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 208) Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-08-15 00:25:12,593 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 208) Closing Spring root WebApplicationContext
+2023-08-15 00:25:12,597 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 208) Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 00:25:12,702 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-5) WFLYSRV0028: Stopped deployment corhuila-0.0.1-SNAPSHOT.war (runtime-name: corhuila-0.0.1-SNAPSHOT.war) in 110ms
+2023-08-15 00:25:12,714 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0009: Undeployed "corhuila-0.0.1-SNAPSHOT.war" (runtime-name: "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:25:17,740 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 2) WFLYDS0004: Found corhuila-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called corhuila-0.0.1-SNAPSHOT.war.dodeploy
+2023-08-15 00:25:17,743 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "corhuila-0.0.1-SNAPSHOT.war" (runtime-name: "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:25:19,827 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:25:19,830 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:25:19,831 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:25:19,831 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:25:19,832 WARN  [org.jboss.as.ee] (MSC service thread 1-6) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 00:25:19,855 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2023-08-15 00:25:19,855 WARN  [org.jboss.weld.deployer] (MSC service thread 1-6) WFLYWELD0013: Deployment corhuila-0.0.1-SNAPSHOT.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-08-15 00:25:19,861 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-4) WFLYJCA0018: Started Driver service with driver-name = corhuila-0.0.1-SNAPSHOT.war_org.postgresql.Driver_42_3
+2023-08-15 00:25:19,888 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 231) 2 Spring WebApplicationInitializers detected on classpath
+2023-08-15 00:25:21,155 INFO  [org.springframework.cloud.commons.util.InetUtils] (ServerService Thread Pool -- 231) Cannot determine local hostname
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231) 
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231)   .   ____          _            __ _ _
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-08-15 00:25:21,267 INFO  [stdout] (ServerService Thread Pool -- 231)  =========|_|==============|___/=/_/_/_/
+2023-08-15 00:25:21,268 INFO  [stdout] (ServerService Thread Pool -- 231)  :: Spring Boot ::               (v2.7.14)
+2023-08-15 00:25:21,268 INFO  [stdout] (ServerService Thread Pool -- 231) 
+2023-08-15 00:25:21,309 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 231) Starting ServletInitializer using Java 1.8.0_202 on JohnWarrior with PID 15680 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-08-15 00:25:21,310 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 231) The following 1 profile is active: "local"
+2023-08-15 00:25:21,823 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 231) Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 00:25:21,854 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 231) Finished Spring Data repository scanning in 24 ms. Found 0 JPA repository interfaces.
+2023-08-15 00:25:21,996 INFO  [org.springframework.cloud.context.scope.GenericScope] (ServerService Thread Pool -- 231) BeanFactory id=f3df737c-d97e-3d2c-a6be-afa7d8b3701d
+2023-08-15 00:25:22,140 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 231) Initializing Spring embedded WebApplicationContext
+2023-08-15 00:25:22,140 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 231) Root WebApplicationContext: initialization completed in 803 ms
+2023-08-15 00:25:22,388 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 231) HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 00:25:22,437 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 231) HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 00:25:22,591 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 231) HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 00:25:22,675 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 231) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-08-15 00:25:22,724 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 231) HHH000490: Using JtaPlatform implementation: [org.springframework.boot.orm.jpa.hibernate.SpringJtaPlatform]
+2023-08-15 00:25:22,797 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 231) Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 00:25:22,920 WARN  [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] (ServerService Thread Pool -- 231) spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 00:25:23,115 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 231) Configured with RSA signing key
+2023-08-15 00:25:23,119 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 231) Signing and verification RSA keys match
+2023-08-15 00:25:23,479 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 231) Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@12968988, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@311d9d3f, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f891206, org.springframework.security.web.header.HeaderWriterFilter@10233658, org.springframework.security.web.authentication.logout.LogoutFilter@50a0941a, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@2bcc8fdb, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@28361ebb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5398cb82, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6943306, org.springframework.security.web.session.SessionManagementFilter@4a3f1c03, org.springframework.security.web.access.ExceptionTranslationFilter@479da82c, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@62047b7b]
+2023-08-15 00:25:23,498 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 231) Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@5ea87fe2 with [org.springframework.security.web.session.DisableEncodeUrlFilter@380c5fba, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@40b401ce, org.springframework.security.web.context.SecurityContextPersistenceFilter@29479435, org.springframework.security.web.header.HeaderWriterFilter@183a5fa0, org.springframework.web.filter.CorsFilter@5a148242, org.springframework.security.web.authentication.logout.LogoutFilter@35621fad, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@2492312d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@2a11e6ba, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@495d0ecb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3d09f1f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@47dea18d, org.springframework.security.web.session.SessionManagementFilter@94544ef, org.springframework.security.web.access.ExceptionTranslationFilter@7b937d33, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@53dde16b]
+2023-08-15 00:25:23,502 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 231) Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@4468e679, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@1d6b863b, org.springframework.security.web.context.SecurityContextPersistenceFilter@369763ae, org.springframework.security.web.header.HeaderWriterFilter@3590160b, org.springframework.security.web.authentication.logout.LogoutFilter@deac641, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1aa79852, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2fb2f543, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@68024461, org.springframework.security.web.session.SessionManagementFilter@6b48971b, org.springframework.security.web.access.ExceptionTranslationFilter@38d299cf, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@22f2841b]
+2023-08-15 00:25:24,972 INFO  [org.springframework.cloud.commons.util.InetUtils] (ServerService Thread Pool -- 231) Cannot determine local hostname
+2023-08-15 00:25:25,012 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 231) Started ServletInitializer in 5.067 seconds (JVM running for 15088.146)
+2023-08-15 00:25:25,021 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 231) Inicializando Mojarra 2.2.13.SP5  para el contexto '/corhuila-0.0.1-SNAPSHOT'
+2023-08-15 00:25:26,457 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 231) WFLYUT0021: Registered web context: '/corhuila-0.0.1-SNAPSHOT' for server 'default-server'
+2023-08-15 00:25:26,470 INFO  [org.jboss.as.server] (DeploymentScanner-threads - 1) WFLYSRV0010: Deployed "corhuila-0.0.1-SNAPSHOT.war" (runtime-name : "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 00:25:31,758 INFO  [io.undertow.servlet] (default task-110) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 00:25:31,758 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-110) Initializing Servlet 'dispatcherServlet'
+2023-08-15 00:25:31,760 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-110) Completed initialization in 2 ms
+2023-08-15 23:28:26,556 INFO  [org.jboss.modules] (main) JBoss Modules version 1.8.5.Final
+2023-08-15 23:28:26,911 INFO  [org.jboss.msc] (main) JBoss MSC version 1.4.2.Final
+2023-08-15 23:28:26,923 INFO  [org.jboss.threads] (main) JBoss Threads version 2.3.2.Final
+2023-08-15 23:28:27,060 INFO  [org.jboss.as] (MSC service thread 1-2) WFLYSRV0049: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) starting
+2023-08-15 23:28:27,062 DEBUG [org.jboss.as.config] (MSC service thread 1-2) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = UTF-8
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.headless = true
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\endorsed
+	java.ext.dirs = C:\Program Files\Java\jdk1.8.0_202\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\Program Files\Java\jdk1.8.0_202\jre
+	java.io.tmpdir = C:\Users\jdcor\AppData\Local\Temp\
+	java.library.path = C:\Program Files\Java\jdk1.8.0_202\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;native;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin/server;C:/Users/jdcor/OneDrive/Documents/Desarrollo/eclipse-jee-2022-12-R-win32-x86_64/eclipse//plugins/org.eclipse.justj.openjdk.hotspot.jre.full.win32.x86_64_17.0.5.v20221102-0933/jre/bin;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\NVIDIA Corporation\NVIDIA NvDLISR;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\Tools\Binn\;c:\Program Files\Microsoft SQL Server\100\DTS\Binn\;c:\Program Files (x86)\Microsoft SQL Server\100\Tools\Binn\VSShell\Common7\IDE\;c:\Program Files (x86)\Microsoft Visual Studio 9.0\Common7\IDE\PrivateAssemblies\;c:\Program Files (x86)\Microsoft SQL Server\100\DTS\Binn\;C:\Program Files\nodejs\;C:\Program Files\Git\cmd;C:\Users\jdcor\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\jdcor\AppData\Local\Programs\Python\Python310\;C:\Users\jdcor\AppData\Local\Microsoft\WindowsApps;;C:\Users\jdcor\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\jdcor\AppData\Roaming\npm;C:\Users\jdcor\OneDrive\Documents\Desarrollo\eclipse-jee-2022-12-R-win32-x86_64\eclipse;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_202-b08
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_202
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.202-b08
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	jboss.bind.address = localhost
+	jboss.bind.address.management = localhost
+	jboss.home.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final
+	jboss.host.name = johnwarrior
+	jboss.modules.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = johnwarrior
+	jboss.qualified.host.name = johnwarrior
+	jboss.server.base.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	jboss.server.config.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration
+	jboss.server.data.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data
+	jboss.server.deploy.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\data\content
+	jboss.server.log.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log
+	jboss.server.name = johnwarrior
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties
+	module.path = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules
+	org.jboss.boot.log.file = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log
+	org.jboss.logmanager.nocolor = true
+	org.jboss.resolver.warning = true
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = JBossTools: WildFly 13
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\Program Files\Java\jdk1.8.0_202\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_202\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_202\jre\classes
+	sun.boot.library.path = C:\Program Files\Java\jdk1.8.0_202\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = org.jboss.modules.Main -mp C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\modules org.jboss.as.standalone -b localhost --server-config=standalone.xml -Djboss.server.base.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.rmi.dgc.client.gcInterval = 3600000
+	sun.rmi.dgc.server.gcInterval = 3600000
+	user.country = CO
+	user.dir = C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin
+	user.home = C:\Users\jdcor
+	user.language = es
+	user.name = jdcor
+	user.script = 
+	user.timezone = America/Bogota
+	user.variant = 
+2023-08-15 23:28:27,063 DEBUG [org.jboss.as.config] (MSC service thread 1-2) VM Arguments: -Dprogram.name=JBossTools: WildFly 13 -Xms64m -Xmx512m -Dorg.jboss.resolver.warning=true -Djava.net.preferIPv4Stack=true -Dsun.rmi.dgc.client.gcInterval=3600000 -Dsun.rmi.dgc.server.gcInterval=3600000 -Djboss.modules.system.pkgs=org.jboss.byteman -Djava.awt.headless=true -Dorg.jboss.boot.log.file=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\log\boot.log -Dlogging.configuration=file:C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\logging.properties -Djboss.home.dir=C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final -Dorg.jboss.logmanager.nocolor=true -Djboss.bind.address.management=localhost -Dfile.encoding=UTF-8 
+2023-08-15 23:28:28,043 INFO  [org.jboss.as.controller.management-deprecated] (Controller Boot Thread) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/core-service=management/management-interface=http-interface' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-08-15 23:28:28,056 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 16) WFLYCTL0028: Attribute 'security-realm' in the resource at address '/subsystem=undertow/server=default-server/https-listener=https' is deprecated, and may be removed in a future version. See the attribute description in the output of the read-resource-description operation to learn more about the deprecation.
+2023-08-15 23:28:28,057 INFO  [org.wildfly.security] (ServerService Thread Pool -- 28) ELY00001: WildFly Elytron version 1.3.3.Final
+2023-08-15 23:28:28,090 INFO  [org.jboss.as.server.deployment.scanner] (DeploymentScanner-threads - 1) WFLYDS0004: Found corhuila-0.0.1-SNAPSHOT.war in deployment directory. To trigger deployment create a file called corhuila-0.0.1-SNAPSHOT.war.dodeploy
+2023-08-15 23:28:28,115 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0039: Creating http management service using socket-binding (management-http)
+2023-08-15 23:28:28,131 INFO  [org.xnio] (MSC service thread 1-7) XNIO version 3.6.3.Final
+2023-08-15 23:28:28,136 INFO  [org.xnio.nio] (MSC service thread 1-7) XNIO NIO Implementation Version 3.6.3.Final
+2023-08-15 23:28:28,154 WARN  [org.jboss.as.txn] (ServerService Thread Pool -- 62) WFLYTX0013: The node-identifier attribute on the /subsystem=transactions is set to the default value. This is a danger for environments running multiple servers. Please make sure the attribute value is unique.
+2023-08-15 23:28:28,158 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 45) WFLYCLINF0001: Activating Infinispan subsystem.
+2023-08-15 23:28:28,161 INFO  [org.jboss.as.naming] (ServerService Thread Pool -- 54) WFLYNAM0001: Activating Naming Subsystem
+2023-08-15 23:28:28,162 INFO  [org.jboss.as.security] (ServerService Thread Pool -- 60) WFLYSEC0002: Activating Security Subsystem
+2023-08-15 23:28:28,162 INFO  [org.jboss.as.webservices] (ServerService Thread Pool -- 64) WFLYWS0002: Activating WebServices Extension
+2023-08-15 23:28:28,175 INFO  [org.jboss.as.security] (MSC service thread 1-2) WFLYSEC0001: Current PicketBox version=5.0.2.Final
+2023-08-15 23:28:28,179 INFO  [org.jboss.as.ee] (ServerService Thread Pool -- 41) WFLYEE0119: The system property 'ee8.preview.mode' is NOT set to 'true'. For provided EE 8 APIs where the EE 8 version of the API differs from what is supported in EE 7, the EE 7 variant of the API will be used. Support for this setting will be removed once all EE 8 APIs are provided and certified.
+2023-08-15 23:28:28,180 INFO  [org.jboss.as.jsf] (ServerService Thread Pool -- 52) WFLYJSF0007: Activated the following JSF Implementations: [main]
+2023-08-15 23:28:28,186 INFO  [org.jboss.as.jaxrs] (ServerService Thread Pool -- 47) WFLYRS0016: RESTEasy version 3.5.1.Final
+2023-08-15 23:28:28,198 INFO  [org.jboss.as.connector] (MSC service thread 1-6) WFLYJCA0009: Starting JCA Subsystem (WildFly/IronJacamar 1.4.9.Final)
+2023-08-15 23:28:28,212 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0003: Undertow 2.0.9.Final starting
+2023-08-15 23:28:28,223 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0004: Deploying JDBC-compliant driver class org.h2.Driver (version 1.4)
+2023-08-15 23:28:28,253 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = h2
+2023-08-15 23:28:28,257 INFO  [org.jboss.as.naming] (MSC service thread 1-6) WFLYNAM0003: Starting Naming Service
+2023-08-15 23:28:28,257 INFO  [org.jboss.as.connector.subsystems.datasources] (ServerService Thread Pool -- 38) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 9.4)
+2023-08-15 23:28:28,259 INFO  [org.jboss.as.mail.extension] (MSC service thread 1-6) WFLYMAIL0001: Bound mail session [java:jboss/mail/Default]
+2023-08-15 23:28:28,260 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-6) WFLYJCA0018: Started Driver service with driver-name = postgres
+2023-08-15 23:28:28,331 INFO  [org.wildfly.extension.io] (ServerService Thread Pool -- 46) WFLYIO001: Worker 'default' has auto-configured to 32 core threads with 256 task threads based on your 16 available processors
+2023-08-15 23:28:28,341 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 63) WFLYUT0014: Creating file handler for path 'C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final/welcome-content' with options [directory-listing: 'false', follow-symlink: 'false', case-sensitive: 'true', safe-symlink-paths: '[]']
+2023-08-15 23:28:28,363 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0481: Strict pool slsb-strict-max-pool is using a max instance size of 256 (per class), which is derived from thread worker pool sizing.
+2023-08-15 23:28:28,363 INFO  [org.jboss.as.ejb3] (MSC service thread 1-6) WFLYEJB0482: Strict pool mdb-strict-max-pool is using a max instance size of 64 (per class), which is derived from the number of CPUs on this host.
+2023-08-15 23:28:28,380 INFO  [org.jboss.remoting] (MSC service thread 1-6) JBoss Remoting version 5.0.7.Final
+2023-08-15 23:28:28,385 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0098: Bound non-transactional data source: java:jboss/ipsDS
+2023-08-15 23:28:28,390 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-7) WFLYUT0012: Started server default-server.
+2023-08-15 23:28:28,392 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0018: Host default-host starting
+2023-08-15 23:28:28,428 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-2) WFLYUT0006: Undertow HTTP listener default listening on 127.0.0.1:8080
+2023-08-15 23:28:28,436 INFO  [org.jboss.as.ejb3] (MSC service thread 1-4) WFLYEJB0493: EJB subsystem suspension complete
+2023-08-15 23:28:28,445 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-1) WFLYJCA0001: Bound data source [java:jboss/datasources/ExampleDS]
+2023-08-15 23:28:28,445 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-2) WFLYJCA0001: Bound data source [java:jboss/datasources/john_consultas]
+2023-08-15 23:28:28,445 INFO  [org.jboss.as.connector.subsystems.datasources] (MSC service thread 1-7) WFLYJCA0001: Bound data source [java:jboss/datasources/john]
+2023-08-15 23:28:28,668 INFO  [org.jboss.as.patching] (MSC service thread 1-7) WFLYPAT0050: WildFly Full cumulative patch ID is: base, one-off patches include: none
+2023-08-15 23:28:28,675 WARN  [org.jboss.as.domain.management.security] (MSC service thread 1-4) WFLYDM0111: Keystore C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\configuration\application.keystore not found, it will be auto generated on first use with a self signed certificate for host localhost
+2023-08-15 23:28:28,677 INFO  [org.jboss.as.server.deployment.scanner] (MSC service thread 1-5) WFLYDS0013: Started FileSystemDeploymentService for directory C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\standalone\deployments
+2023-08-15 23:28:28,682 INFO  [org.jboss.as.server.deployment] (MSC service thread 1-6) WFLYSRV0027: Starting deployment of "corhuila-0.0.1-SNAPSHOT.war" (runtime-name: "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 23:28:28,816 INFO  [org.wildfly.extension.undertow] (MSC service thread 1-4) WFLYUT0006: Undertow HTTPS listener https listening on 127.0.0.1:8443
+2023-08-15 23:28:28,905 INFO  [org.jboss.ws.common.management] (MSC service thread 1-1) JBWS022052: Starting JBossWS 5.2.1.Final (Apache CXF 3.2.4.jbossorg-1) 
+2023-08-15 23:28:31,475 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpResponse$ResponseAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 23:28:31,476 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.ServletServerHttpAsyncRequestControl due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 23:28:31,477 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.web.context.request.async.StandardServletAsyncWebRequest due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 23:28:31,478 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletHttpHandlerAdapter$HttpHandlerAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 23:28:31,479 WARN  [org.jboss.as.ee] (MSC service thread 1-3) WFLYEE0007: Not installing optional component org.springframework.http.server.reactive.ServletServerHttpRequest$RequestAsyncListener due to an exception (enable DEBUG log level to see the cause)
+2023-08-15 23:28:31,534 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-3) WFLYJCA0005: Deploying non-JDBC-compliant driver class org.postgresql.Driver (version 42.3)
+2023-08-15 23:28:31,535 WARN  [org.jboss.weld.deployer] (MSC service thread 1-3) WFLYWELD0013: Deployment corhuila-0.0.1-SNAPSHOT.war contains CDI annotations but no bean archive was found (no beans.xml or class with bean defining annotations was present).
+2023-08-15 23:28:31,566 INFO  [org.jboss.as.connector.deployers.jdbc] (MSC service thread 1-1) WFLYJCA0018: Started Driver service with driver-name = corhuila-0.0.1-SNAPSHOT.war_org.postgresql.Driver_42_3
+2023-08-15 23:28:31,680 INFO  [org.infinispan.factories.GlobalComponentRegistry] (MSC service thread 1-4) ISPN000128: Infinispan version: Infinispan 'Gaina' 9.2.4.Final
+2023-08-15 23:28:31,820 INFO  [org.jboss.as.clustering.infinispan] (ServerService Thread Pool -- 66) WFLYCLINF0002: Started client-mappings cache from ejb container
+2023-08-15 23:28:31,907 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) 2 Spring WebApplicationInitializers detected on classpath
+2023-08-15 23:28:32,302 INFO  [org.hibernate.validator.internal.util.Version] (background-preinit) HV000001: Hibernate Validator 5.3.6.Final
+2023-08-15 23:28:32,308 INFO  [stdout] (ServerService Thread Pool -- 92) 
+2023-08-15 23:28:32,308 INFO  [stdout] (ServerService Thread Pool -- 92)   .   ____          _            __ _ _
+2023-08-15 23:28:32,308 INFO  [stdout] (ServerService Thread Pool -- 92)  /\\ / ___'_ __ _ _(_)_ __  __ _ \ \ \ \
+2023-08-15 23:28:32,308 INFO  [stdout] (ServerService Thread Pool -- 92) ( ( )\___ | '_ | '_| | '_ \/ _` | \ \ \ \
+2023-08-15 23:28:32,308 INFO  [stdout] (ServerService Thread Pool -- 92)  \\/  ___)| |_)| | | | | || (_| |  ) ) ) )
+2023-08-15 23:28:32,309 INFO  [stdout] (ServerService Thread Pool -- 92)   '  |____| .__|_| |_|_| |_\__, | / / / /
+2023-08-15 23:28:32,309 INFO  [stdout] (ServerService Thread Pool -- 92)  =========|_|==============|___/=/_/_/_/
+2023-08-15 23:28:32,309 INFO  [stdout] (ServerService Thread Pool -- 92)  :: Spring Boot ::               (v2.7.14)
+2023-08-15 23:28:32,309 INFO  [stdout] (ServerService Thread Pool -- 92) 
+2023-08-15 23:28:32,356 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 92) Starting ServletInitializer using Java 1.8.0_202 on JohnWarrior with PID 8740 (started by jdcor in C:\Users\jdcor\OneDrive\Documents\Desarrollo\wildfly-13.0.0.Final\wildfly-13.0.0.Final\bin)
+2023-08-15 23:28:32,357 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 92) The following 1 profile is active: "local"
+2023-08-15 23:28:32,860 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 92) Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-08-15 23:28:32,885 INFO  [org.springframework.data.repository.config.RepositoryConfigurationDelegate] (ServerService Thread Pool -- 92) Finished Spring Data repository scanning in 18 ms. Found 0 JPA repository interfaces.
+2023-08-15 23:28:33,058 INFO  [org.springframework.cloud.context.scope.GenericScope] (ServerService Thread Pool -- 92) BeanFactory id=f3df737c-d97e-3d2c-a6be-afa7d8b3701d
+2023-08-15 23:28:33,221 INFO  [io.undertow.servlet] (ServerService Thread Pool -- 92) Initializing Spring embedded WebApplicationContext
+2023-08-15 23:28:33,221 INFO  [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] (ServerService Thread Pool -- 92) Root WebApplicationContext: initialization completed in 828 ms
+2023-08-15 23:28:33,534 INFO  [org.hibernate.jpa.internal.util.LogHelper] (ServerService Thread Pool -- 92) HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-08-15 23:28:33,576 INFO  [org.hibernate.Version] (ServerService Thread Pool -- 92) HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-08-15 23:28:33,728 INFO  [org.hibernate.annotations.common.Version] (ServerService Thread Pool -- 92) HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-08-15 23:28:33,927 INFO  [org.hibernate.dialect.Dialect] (ServerService Thread Pool -- 92) HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL95Dialect
+2023-08-15 23:28:33,993 INFO  [org.hibernate.engine.transaction.jta.platform.internal.JtaPlatformInitiator] (ServerService Thread Pool -- 92) HHH000490: Using JtaPlatform implementation: [org.springframework.boot.orm.jpa.hibernate.SpringJtaPlatform]
+2023-08-15 23:28:34,080 INFO  [org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean] (ServerService Thread Pool -- 92) Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-08-15 23:28:34,138 WARN  [org.springframework.boot.autoconfigure.orm.jpa.JpaBaseConfiguration$JpaWebConfiguration] (ServerService Thread Pool -- 92) spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-08-15 23:28:34,342 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 92) Configured with RSA signing key
+2023-08-15 23:28:34,352 INFO  [org.springframework.security.oauth2.provider.token.store.JwtAccessTokenConverter] (ServerService Thread Pool -- 92) Signing and verification RSA keys match
+2023-08-15 23:28:34,854 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 92) Will secure Or [Ant [pattern='/oauth/token'], Ant [pattern='/oauth/token_key'], Ant [pattern='/oauth/check_token']] with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e918c69, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@5c58514f, org.springframework.security.web.context.SecurityContextPersistenceFilter@5679ae05, org.springframework.security.web.header.HeaderWriterFilter@3ad9b198, org.springframework.security.web.authentication.logout.LogoutFilter@59f3c17b, org.springframework.security.web.authentication.www.BasicAuthenticationFilter@71f1d4a8, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@760b2243, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@686c76fc, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f2ef21b, org.springframework.security.web.session.SessionManagementFilter@46de5699, org.springframework.security.web.access.ExceptionTranslationFilter@1c3b4d38, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e4e5e46]
+2023-08-15 23:28:34,875 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 92) Will secure org.springframework.security.oauth2.config.annotation.web.configuration.ResourceServerConfiguration$NotOAuthRequestMatcher@ec6b20e with [org.springframework.security.web.session.DisableEncodeUrlFilter@7af63ffd, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2271468a, org.springframework.security.web.context.SecurityContextPersistenceFilter@483028f6, org.springframework.security.web.header.HeaderWriterFilter@500e9dd7, org.springframework.web.filter.CorsFilter@fcf6d35, org.springframework.security.web.authentication.logout.LogoutFilter@5495c183, org.springframework.security.oauth2.provider.authentication.OAuth2AuthenticationProcessingFilter@627e38e9, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@41133990, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@42fa7b60, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@663ea6cd, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34a2e800, org.springframework.security.web.session.SessionManagementFilter@46e7a13b, org.springframework.security.web.access.ExceptionTranslationFilter@28144a8a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7e7af499]
+2023-08-15 23:28:34,880 INFO  [org.springframework.security.web.DefaultSecurityFilterChain] (ServerService Thread Pool -- 92) Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@20d13a58, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@2b2f6a90, org.springframework.security.web.context.SecurityContextPersistenceFilter@6ed88f4d, org.springframework.security.web.header.HeaderWriterFilter@694cfed3, org.springframework.security.web.authentication.logout.LogoutFilter@5276cca5, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@316976c7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@3fddbc5f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@3e330839, org.springframework.security.web.session.SessionManagementFilter@3e6f317d, org.springframework.security.web.access.ExceptionTranslationFilter@1978c2cb, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@120b973c]
+2023-08-15 23:28:35,408 INFO  [com.corhuila.corhuila.ServletInitializer] (ServerService Thread Pool -- 92) Started ServletInitializer in 3.447 seconds (JVM running for 9.168)
+2023-08-15 23:28:35,471 INFO  [javax.enterprise.resource.webcontainer.jsf.config] (ServerService Thread Pool -- 92) Inicializando Mojarra 2.2.13.SP5  para el contexto '/corhuila-0.0.1-SNAPSHOT'
+2023-08-15 23:28:36,916 INFO  [org.wildfly.extension.undertow] (ServerService Thread Pool -- 92) WFLYUT0021: Registered web context: '/corhuila-0.0.1-SNAPSHOT' for server 'default-server'
+2023-08-15 23:28:36,930 INFO  [org.jboss.as.server] (ServerService Thread Pool -- 39) WFLYSRV0010: Deployed "corhuila-0.0.1-SNAPSHOT.war" (runtime-name : "corhuila-0.0.1-SNAPSHOT.war")
+2023-08-15 23:28:36,972 INFO  [org.jboss.as.server] (Controller Boot Thread) WFLYSRV0212: Resuming server
+2023-08-15 23:28:36,974 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0060: Http management interface listening on http://127.0.0.1:9990/management
+2023-08-15 23:28:36,974 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0051: Admin console listening on http://127.0.0.1:9990
+2023-08-15 23:28:36,974 INFO  [org.jboss.as] (Controller Boot Thread) WFLYSRV0025: WildFly Full 13.0.0.Final (WildFly Core 5.0.0.Final) started in 10676ms - Started 518 of 710 services (317 services are lazy, passive or on-demand)
+2023-08-15 23:30:08,869 INFO  [io.undertow.servlet] (default task-1) Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-15 23:30:08,869 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Initializing Servlet 'dispatcherServlet'
+2023-08-15 23:30:08,870 INFO  [org.springframework.web.servlet.DispatcherServlet] (default task-1) Completed initialization in 1 ms
+2023-08-15 23:30:09,112 INFO  [stdout] (default task-1) USUARIO:::Usuario [codigo=1, username=1075303330, password=5AE2BACFFEBDF3E8E37DECDD343AC728, state=true, persona=Persona(codigo=1, identificacion=1075303330, tipoId=null, libretaMilitar=null, nombre=JOHN DAVID, apellido=GUERRERO CORDOBA, sexoBiologico=null, lugarExpedición=0, expedicion=null, edad=null), role=1]FUNCION:: 12345 U 5AE2BACFFEBDF3E8E37DECDD343AC728 U 5AE2BACFFEBDF3E8E37DECDD343AC728
+2023-08-15 23:30:09,116 INFO  [stdout] (default task-1) ::::8e3c1c19-1919-412e-8574-99fc68c3407d
